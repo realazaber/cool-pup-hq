@@ -21,7 +21,8 @@
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
-        "drupal/entity_reference_revisions": "^1.9"
+        "drupal/entity_reference_revisions": "^1.9",
+        "drupal/viewsreference": "^1.7"
     },
     "conflict": {
         "drupal/drupal": "*"
