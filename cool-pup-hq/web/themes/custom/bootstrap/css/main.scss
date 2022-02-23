@@ -1,0 +1,26 @@
+@import "./nav.scss";
+
+
+body {
+
+    padding: 50px;
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+.views-element-container {
+    width: 80vw;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
