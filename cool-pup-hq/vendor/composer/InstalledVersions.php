@@ -30,7 +30,7 @@ class InstalledVersions
     'aliases' => 
     array (
     ),
-    'reference' => '158d9381a8d315ddf8b4d28dab7c4df78d83e423',
+    'reference' => 'fb8d1dcdc72ba08cfd34b5a45fbd1f763e9c5f8e',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -863,7 +863,7 @@ class InstalledVersions
       'aliases' => 
       array (
       ),
-      'reference' => '158d9381a8d315ddf8b4d28dab7c4df78d83e423',
+      'reference' => 'fb8d1dcdc72ba08cfd34b5a45fbd1f763e9c5f8e',
     ),
     'drupal/responsive_image' => 
     array (
