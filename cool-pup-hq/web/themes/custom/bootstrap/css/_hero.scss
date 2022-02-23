@@ -1,0 +1,42 @@
+.hero-section {
+    margin: 0;
+    position: static;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 3;
+
+    
+    img, h1, h2, h3, h4, h5, h6, p {
+        position: absolute;
+    }
+
+    
+
+
+    img {
+        top: 0;
+        left: 0;
+        
+        width: 100vw;
+        height: 500px;
+        object-fit: cover;
+        z-index: 2;
+    }
+
+    h1 {
+        top: 80%;
+        left: 40%;
+    }
+    p {
+        top: 50%;
+        left: 40%;
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+        color: white;
+        font-weight: bold;
+
+        text-align: center;
+        z-index: 4;
+    }
+}

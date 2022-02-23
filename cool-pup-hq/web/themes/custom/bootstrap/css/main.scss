@@ -1,15 +1,13 @@
 @import "./nav.scss";
+@import "./hero.scss";
+@import "./footer.scss";
 
 
 body {
 
     padding: 50px;
 
-    footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+
     
 }
 
