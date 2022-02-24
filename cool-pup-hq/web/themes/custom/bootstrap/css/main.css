@@ -2,16 +2,17 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100% !important;
   z-index: 5;
 }
 
 .hero-section {
   margin: 0;
   width: 100vw;
+  height: 100vh;
 }
 
-.hero-section img, .hero-section .text {
+.hero-section img, .hero-section .text, .hero-section .overlay {
   position: absolute;
 }
 
@@ -19,8 +20,8 @@
   top: 0;
   left: 0;
   margin: 0;
-  width: 100vw;
-  height: 500px;
+  width: 100%;
+  height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 2;
@@ -29,20 +30,18 @@
 
 .hero-section .overlay {
   width: 100%;
-  height: 500px;
+  height: 100vh;
   background-color: black;
   opacity: 0.4;
   z-index: 3;
-  position: absolute;
   top: 0;
   left: 0;
 }
 
 .hero-section .text {
   left: 0px;
-  top: 250px;
+  top: 50vh;
   width: 100%;
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,7 +77,7 @@ footer {
 }
 
 body {
-  padding: 30px 0px;
+  overflow-x: hidden;
 }
 
 .views-element-container {
@@ -95,5 +94,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 50px;
 }
 /*# sourceMappingURL=main.css.map */

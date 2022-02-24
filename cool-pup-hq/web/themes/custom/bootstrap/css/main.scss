@@ -5,8 +5,8 @@
 
 body {
 
-    padding: 30px 0px;
     
+    overflow-x: hidden;
 }
 
 .views-element-container {
@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 
